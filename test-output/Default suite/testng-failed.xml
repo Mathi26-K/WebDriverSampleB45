@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestScripts.LocatorTest">
+      <class name="TestScripts.MouseActionTest">
         <methods>
-          <include name="LoginTest"/>
+          <include name="searchJavaTest"/>
         </methods>
-      </class> <!-- TestScripts.LocatorTest -->
+      </class> <!-- TestScripts.MouseActionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
