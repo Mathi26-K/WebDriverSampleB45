@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 public class DropdownTest {
 	WebDriver driver;
   @Test
-  public void searchJavaTest() throws InterruptedException {
+  public void DropdownHandle() throws InterruptedException {
 
 	  driver = new ChromeDriver();
 	  driver.manage().window().maximize();

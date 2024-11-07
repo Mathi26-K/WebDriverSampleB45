@@ -29,17 +29,21 @@ public class MouseActionTest {
 	  Thread.sleep(3000);
 
 	  WebElement srcbox = driver.findElement(By.name("search"));
-	  actions.contextClick(srcbox).perform();
+	//  actions.contextClick(srcbox).perform();
 	  WebElement menu = driver.findElement(By.xpath("//ul[@class='nav navbar-nav']//descendant::a[(text()='Components')]"));
 	  actions.moveToElement(menu).perform();
 	  
-	  WebElement menuitem = driver.findElement(By.xpath("//ul[@class='list-unstyled']//a[contains(text(),'Monitors (2)')]"));
+	  //iterate and click the element
+	  
+	  
+	  
+	 // WebElement menuitem = driver.findElement(By.xpath("//ul[@class='list-unstyled']//a[contains(text(),'Monitors (2)')]"));
 	//  actions.moveToElement(menu).click(menuitem).build().perform();
 	  Thread.sleep(3000);
 	 
 	  
-	  actions.scrollToElement(driver.findElement(By.xpath("//a[contains(text(),'Contact Us')]"))).perform();
-	  Thread.sleep(3000);
+//	  actions.scrollToElement(driver.findElement(By.xpath("//a[contains(text(),'Contact Us')]"))).perform();
+//	  Thread.sleep(3000);
 	  driver.close();
 	  
   }

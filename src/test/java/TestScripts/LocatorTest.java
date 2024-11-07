@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class LocatorTest {
 	WebDriver driver;
 
-	@Test
+	@Test(enabled = true)
 	public void LoginTest() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -30,3 +30,4 @@ public class LocatorTest {
 		driver.close();
 	}
 }
+

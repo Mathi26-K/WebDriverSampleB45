@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 public class DoubleClick {
 	WebDriver driver;
   @Test
-  public void searchJavaTest() throws InterruptedException {
+  public void DoubleClickMouse() throws InterruptedException {
 
 	 
 	  
