@@ -18,6 +18,7 @@ public class ExplicitWaitTest {
   @Test
   public void Explicit() throws InterruptedException {
 
+	  
 	  driver = new ChromeDriver();
 	  driver.manage().window().maximize();
 	  driver.get("http://uitestingplayground.com/ajax");
