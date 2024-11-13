@@ -1,46 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="7" total="12" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-07T13:20:59 IST" name="Suite" finished-at="2024-11-07T13:20:59 IST" duration-ms="127">
+  <suite started-at="2024-11-12T12:17:10 IST" name="Default suite" finished-at="2024-11-12T12:17:39 IST" duration-ms="29609">
     <groups>
-      <group name="Feature one">
-        <method signature="Sample1.testOne()[pri:0, instance:TestScript2.Sample1@fa49800]" name="testOne" class="TestScript2.Sample1"/>
-        <method signature="Sample2.testThree()[pri:0, instance:TestScript2.Sample2@6283d8b8]" name="testThree" class="TestScript2.Sample2"/>
-        <method signature="Sample3.testTwo()[pri:0, instance:TestScript2.Sample3@3b6ddd1d]" name="testTwo" class="TestScript2.Sample3"/>
-      </group> <!-- Feature one -->
-      <group name="Feature two">
-        <method signature="Sample1.testThree()[pri:0, instance:TestScript2.Sample1@fa49800]" name="testThree" class="TestScript2.Sample1"/>
-        <method signature="Sample2.testTwo()[pri:0, instance:TestScript2.Sample2@6283d8b8]" name="testTwo" class="TestScript2.Sample2"/>
-      </group> <!-- Feature two -->
     </groups>
-    <test started-at="2024-11-07T13:20:59 IST" name="Test" finished-at="2024-11-07T13:20:59 IST" duration-ms="127">
-      <class name="TestScript2.Sample3">
-        <test-method signature="testTwo()[pri:0, instance:TestScript2.Sample3@3b6ddd1d]" started-at="2024-11-07T13:20:59 IST" name="testTwo" finished-at="2024-11-07T13:20:59 IST" duration-ms="2" status="PASS">
+    <test started-at="2024-11-12T12:17:10 IST" name="Default test" finished-at="2024-11-12T12:17:39 IST" duration-ms="29609">
+      <class name="TestScripts.CDPTest">
+        <test-method signature="ToolTipHandle()[pri:0, instance:TestScripts.CDPTest@6cd28fa7]" started-at="2024-11-12T12:17:10 IST" name="ToolTipHandle" finished-at="2024-11-12T12:17:39 IST" duration-ms="29563" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTwo -->
-      </class> <!-- TestScript2.Sample3 -->
-      <class name="TestScript2.Sample1">
-        <test-method signature="testOne()[pri:0, instance:TestScript2.Sample1@fa49800]" started-at="2024-11-07T13:20:59 IST" name="testOne" finished-at="2024-11-07T13:20:59 IST" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method signature="testThree()[pri:0, instance:TestScript2.Sample1@fa49800]" started-at="2024-11-07T13:20:59 IST" name="testThree" finished-at="2024-11-07T13:20:59 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testThree -->
-      </class> <!-- TestScript2.Sample1 -->
-      <class name="TestScript2.Sample2">
-        <test-method signature="testThree()[pri:0, instance:TestScript2.Sample2@6283d8b8]" started-at="2024-11-07T13:20:59 IST" name="testThree" finished-at="2024-11-07T13:20:59 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testThree -->
-        <test-method signature="testTwo()[pri:0, instance:TestScript2.Sample2@6283d8b8]" started-at="2024-11-07T13:20:59 IST" name="testTwo" finished-at="2024-11-07T13:20:59 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTwo -->
-      </class> <!-- TestScript2.Sample2 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- ToolTipHandle -->
+      </class> <!-- TestScripts.CDPTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -3,13 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="TestScripts.GooglePageSearchTest">
+      <class name="TestScripts.ExtentReportTest">
         <methods>
-          <include name="searchSeleniumTest"/>
-          <include name="close"/>
           <include name="launch"/>
+          <include name="close"/>
+          <include name="searchSeleniumTest"/>
+          <include name="setUpExtent"/>
+          <include name="extentReports1"/>
         </methods>
-      </class> <!-- TestScripts.GooglePageSearchTest -->
+      </class> <!-- TestScripts.ExtentReportTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
