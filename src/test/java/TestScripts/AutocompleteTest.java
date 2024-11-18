@@ -36,6 +36,7 @@ public class AutocompleteTest {
 		 System.out.println("items :"+item.getText());
 		 if(item.getText().equalsIgnoreCase(expvalue)) {
 			 item.click();
+			
 			 break;
 		 }
 	 }
